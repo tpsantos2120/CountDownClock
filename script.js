@@ -10,3 +10,11 @@ $("#trigger").click(function(){
   $("#days-until").append("<li>" + calcDaysUntil.toString()+" days until Valentines Day</li>");
 })
 
+
+$("#trigger").click(function(){
+const holidayDates = [[new Date(2021,12,25), 'days until Christmas Day'], [new Date(2022,01,01), 'days until New Years Day'], 
+[new Date(2021,02,14), 'days until Valentines Day']];
+
+holidayDates.forEach(item => { var calcDaysUntil = parseInt (24*3600*1000));
+})
+
